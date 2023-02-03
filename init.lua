@@ -95,7 +95,14 @@ local config = {
     highlights = function(hl) -- or a function that returns a new table of colors to set
       local C = require "default_theme.colors"
 
-      hl.Normal = { fg = C.fg, bg = C.bg }
+        header = {
+                "██╗   ██╗ █████╗ ██╗   ██╗",
+                "╚██╗ ██╔╝██╔══██╗╚██╗ ██╔╝",
+                " ╚████╔╝ ███████║ ╚████╔╝ ",
+                "  ╚██╔╝  ██╔══██║  ╚██╔╝",
+                "   ██║   ██║  ██║   ██║   ",
+                "   ╚═╝   ╚═╝  ╚═╝   ╚═╝    ",
+        },
 
       -- New approach instead of diagnostic_style
       hl.DiagnosticError.italic = true
