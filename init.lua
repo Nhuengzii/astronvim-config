@@ -48,6 +48,15 @@ return {
     servers = {
       -- "pyright"
     },
+    config = {
+      clangd = {
+        -- clangd specific options
+        capabilities = {
+          offsetEncoding = "utf-8",
+        },
+        filetypes = { "c", "cpp", "objc", "objcpp" },
+      },
+    },
   },
   -- Configure require("lazy").setup() options
   lazy = {
