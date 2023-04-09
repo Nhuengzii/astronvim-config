@@ -8,6 +8,9 @@ return {
   { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   {
+    import = "astrocommunity.pack.typescript",
+  },
+  {
     "copilot.lua",
     opts = {
       suggestion = {
