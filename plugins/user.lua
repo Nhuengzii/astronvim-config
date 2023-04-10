@@ -20,9 +20,13 @@ return {
         file_assets = {
           go = {
             "Go",
-            "https://camo.githubusercontent.com/0e3c4976eb4b8ec80e285608a7f23744408a0ffb/68747470733a2f2f736563757265676f2e696f2f696d672f676f7365632e706e67",
+            "https://ih1.redbubble.net/image.866593118.1888/st,small,507x507-pad,600x600,f8f8f8.u3.jpg",
           },
           ["GustavoPrietoP.txt"] = { "GustavoPrietoP", "https://avatars.githubusercontent.com/u/70907734?v=4" },
+          jittat = {
+            "Jittat",
+            "https://www.cpe.ku.ac.th/wp-content/uploads/2014/10/14-KUENG-PHO-01-44-44-40.jpg",
+          },
         },
       }
     end,
