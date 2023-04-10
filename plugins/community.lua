@@ -8,6 +8,7 @@ return {
   { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.python" },
   {
     import = "astrocommunity.pack.typescript",
   },
