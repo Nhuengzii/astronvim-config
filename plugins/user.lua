@@ -31,4 +31,14 @@ return {
       }
     end,
   },
+  {
+    "vinnymeller/swagger-preview.nvim",
+    lazy = false,
+    config = function()
+      require("swagger-preview").setup({
+        port = 8000,
+        host = "localhost"
+      })
+    end
+  },
 }

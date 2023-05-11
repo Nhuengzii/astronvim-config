@@ -12,6 +12,7 @@ return {
   {
     import = "astrocommunity.pack.typescript",
   },
+  { import = "astrocommunity.pack.dart" },
   {
     "copilot.lua",
     opts = {
